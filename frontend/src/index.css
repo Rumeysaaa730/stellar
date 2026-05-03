@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0F172A;
+    color: #F8FAFC;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    color: #F8FAFC;
+  }
+
+  code, pre, kbd, samp {
+    font-family: 'Fira Code', monospace;
+  }
+
+  ::-webkit-scrollbar       { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: #131D2E; }
+  ::-webkit-scrollbar-thumb { background: #2D3F57; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #3B82F6; }
+
+  input, textarea, select { color-scheme: dark; }
+  select option { background-color: #1A2742; }
+}
+
+@layer components {
+  /* Gradient metin */
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand-primary via-brand-secondary to-brand-accent bg-clip-text text-transparent;
+  }
+
+  /* Cam efektli kart */
+  .glass-card {
+    @apply bg-bg-card/80 backdrop-blur-sm border border-bg-border rounded-2xl;
+  }
+
+  /* Ana buton */
+  .btn-primary {
+    @apply bg-gradient-to-r from-brand-primary to-brand-secondary hover:opacity-90
+           text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-glow-sm
+           font-heading;
+  }
+
+  /* İkincil buton */
+  .btn-ghost {
+    @apply bg-bg-elevated border border-bg-border hover:bg-bg-card
+           text-text-secondary hover:text-text-primary px-6 py-3 rounded-xl font-medium transition-all;
+  }
+
+  /* Input alanı */
+  .input-field {
+    @apply w-full bg-bg-elevated border border-bg-border rounded-xl px-4 py-3
+           text-text-primary placeholder-text-muted
+           focus:outline-none focus:border-brand-primary focus:ring-1 focus:ring-brand-primary/30
+           transition-colors;
+  }
+
+  /* Bölüm başlığı */
+  .section-title {
+    @apply font-heading font-bold text-text-primary;
+  }
+
+  /* Rozet */
+  .badge {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  .badge-blue    { @apply badge bg-brand-primary/15 text-brand-primary border border-brand-primary/30; }
+  .badge-purple  { @apply badge bg-brand-secondary/15 text-brand-secondary border border-brand-secondary/30; }
+  .badge-cyan    { @apply badge bg-brand-accent/15 text-brand-accent border border-brand-accent/30; }
+  .badge-green   { @apply badge bg-status-success/15 text-status-success border border-status-success/30; }
+  .badge-red     { @apply badge bg-status-error/15 text-status-error border border-status-error/30; }
+  .badge-yellow  { @apply badge bg-status-warning/15 text-status-warning border border-status-warning/30; }
+}

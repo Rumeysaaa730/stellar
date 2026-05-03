@@ -1,0 +1,145 @@
+{
+  "users": [
+    {
+      "id": "dda1d353-da35-45fc-acd5-67a8b636aed5",
+      "name": "mshnbns msbamjs",
+      "wallet_address": "GDOODT64XBAL3U22XSYTL7SBGTMXHEERKEABDEDK6PEM4JLUI3RFCQTX",
+      "role": "client",
+      "balance_xlm": 0,
+      "total_earned": 0,
+      "total_spent": 0,
+      "reputation": 5,
+      "completed_jobs": 0,
+      "created_at": "2026-05-03T01:43:41.443Z"
+    },
+    {
+      "id": "admin-001",
+      "name": "Platform Admin",
+      "role": "admin",
+      "wallet_address": "GADMIN123DEMOSTELLAR",
+      "balance_xlm": 0,
+      "total_earned": 0,
+      "total_spent": 0,
+      "reputation": 5,
+      "completed_jobs": 0,
+      "created_at": "2026-05-03T02:25:04.193Z"
+    },
+    {
+      "id": "client-demo",
+      "name": "Ahmet Yılmaz",
+      "role": "client",
+      "wallet_address": "GCLIENT123DEMOSTELLAR",
+      "balance_xlm": 5000,
+      "total_earned": 0,
+      "total_spent": 2850,
+      "reputation": 4.8,
+      "completed_jobs": 12,
+      "created_at": "2026-04-03T02:25:04.194Z"
+    },
+    {
+      "id": "freelancer-demo",
+      "name": "Zeynep Kaya",
+      "role": "freelancer",
+      "wallet_address": "GFREELANCER123DEMOSTELLAR",
+      "balance_xlm": 1200,
+      "total_earned": 15420,
+      "total_spent": 0,
+      "reputation": 4.9,
+      "completed_jobs": 28,
+      "created_at": "2026-03-04T02:25:04.194Z"
+    },
+    {
+      "id": "faf5dc84-fc08-4772-81e8-ad0e58e95883",
+      "name": "melis akyürek",
+      "wallet_address": "GDOODT64XBAL3U22XSYTL7SBGTMXHEERKEABDEDK6PEM4JLUI3RFCQTX",
+      "role": "client",
+      "balance_xlm": 0,
+      "total_earned": 0,
+      "total_spent": 0,
+      "reputation": 5,
+      "completed_jobs": 0,
+      "created_at": "2026-05-03T02:30:07.038Z"
+    },
+    {
+      "id": "03ebeda5-05d9-490c-a124-4ad98dc1e710",
+      "name": "arda turan",
+      "wallet_address": "GDOODT64XBAL3U22XSYTL7SBGTMXHEERKEABDEDK6PEM4JLUI3RFCQTX",
+      "role": "freelancer",
+      "balance_xlm": 0,
+      "total_earned": 0,
+      "total_spent": 0,
+      "reputation": 5,
+      "completed_jobs": 0,
+      "created_at": "2026-05-03T02:30:25.900Z"
+    },
+    {
+      "id": "522755bf-e371-46e9-a452-92111e22e8d3",
+      "name": "arda yıldız",
+      "wallet_address": "GDOODT64XBAL3U22XSYTL7SBGTMXHEERKEABDEDK6PEM4JLUI3RFCQTX",
+      "role": "client",
+      "balance_xlm": 0,
+      "total_earned": 0,
+      "total_spent": 0,
+      "reputation": 5,
+      "completed_jobs": 0,
+      "created_at": "2026-05-03T02:30:53.438Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "88fb15f2-c13d-4730-9a8e-a78478680f97",
+      "title": "web sitesi",
+      "description": "fnfjhnsdjn",
+      "budget_xlm": 566,
+      "client_id": "faf5dc84-fc08-4772-81e8-ad0e58e95883",
+      "status": "IN_PROGRESS",
+      "category": "Tasarım",
+      "deadline": "5739-04-06",
+      "escrow_account": "GC7X3SZ7IHOWCPK27HJLLS3TMV2HW4I4ZZKTQSHAQMNLAC44MZSFONXF",
+      "escrow_secret": "SDW5LN4HOH4SXX4YL7V4BFI6HOMA2OO3COV5HCNSAUYXW7CEI5S6YBCV",
+      "escrow_funded": false,
+      "commission_xlm": 5.66,
+      "created_at": "2026-05-03T02:57:46.279Z",
+      "applicants": [
+        "freelancer-demo"
+      ],
+      "freelancer_id": "freelancer-demo"
+    },
+    {
+      "id": "b3d2ad5c-8b02-48a8-b360-35cdefbef48b",
+      "title": "dsfsf",
+      "description": "dfgdgfdggdf",
+      "budget_xlm": 1,
+      "client_id": "client-demo",
+      "status": "CREATED",
+      "category": "Yazılım Geliştirme",
+      "escrow_account": "GCQX4FPTNKYANZ26SS2U7RJYK4VZYDWE5JQ2WSZCIR7G4SOSGNI7M2Z4",
+      "escrow_secret": "SBEXJCUX77ECBL2VATXJJMIQ6Q6FQU4ZRIWYJUYBHJLYOWCT4RTUE7L3",
+      "escrow_funded": false,
+      "commission_xlm": 0.01,
+      "created_at": "2026-05-03T03:01:08.817Z"
+    }
+  ],
+  "disputes": [],
+  "transactions": [],
+  "notifications": [
+    {
+      "id": "3ae65a81-4a07-4c69-85e3-69c00b387d7f",
+      "user_id": "faf5dc84-fc08-4772-81e8-ad0e58e95883",
+      "type": "job_applied",
+      "message": "\"web sitesi\" işine Zeynep Kaya başvurdu.",
+      "read": true,
+      "created_at": "2026-05-03T04:03:59.847Z",
+      "link": "/jobs/88fb15f2-c13d-4730-9a8e-a78478680f97"
+    },
+    {
+      "id": "f7a16b95-8308-4683-a638-7c9790ee5ec6",
+      "user_id": "freelancer-demo",
+      "type": "job_accepted",
+      "message": "\"web sitesi\" işine kabul edildiniz! Çalışmaya başlayabilirsiniz.",
+      "read": false,
+      "created_at": "2026-05-03T04:18:00.315Z",
+      "link": "/jobs/88fb15f2-c13d-4730-9a8e-a78478680f97"
+    }
+  ]
+}
