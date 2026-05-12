@@ -228,6 +228,15 @@ Client creates job
 
 All on-chain operations produce a **Stellar transaction hash** — a 64-character hex string that uniquely identifies the transaction on the network. Hashes are stored in `backend/data/db.json` and returned in API responses.
 
+### Smart Contract Deploy
+
+| Field | Value |
+|---|---|
+| **Contract ID** | `CDLE7YJ7YV34GICWRCMFWMHYY3AVEKKIS2KNZA3HKO4QS22C7AOVGJXB` |
+| **Upload TX** | `14e659ab8d416dc9352fe1b6a95787f781139c8d70de660ee00c2e19bc367f29` |
+| **Deploy TX** | `fa3466140a08067d012ff182ce189b9a4241cea07a7e75300d15c4b8567d421b` |
+| **Network** | Stellar Testnet |
+| **Explorer** | [View Contract ↗](https://stellar.expert/explorer/testnet/contract/CDLE7YJ7YV34GICWRCMFWMHYY3AVEKKIS2KNZA3HKO4QS22C7AOVGJXB) |
 ### Live Test Transaction
 
 This transaction was executed against **Stellar Testnet** during development:
